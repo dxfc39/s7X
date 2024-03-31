@@ -1,0 +1,636 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()local Window = OrionLib:MakeWindow({Name = "S7X PREMIUM/v1.0.0", HidePremium = false, Introtext = "Welcome To S7X Premium⭐️", SaveConfig = true, ConfigFolder = "v 1.0.0"})
+
+
+OrionLib:MakeNotification({
+	Name = "EXCUTED SUCCEFULY",
+	Content = "Welcome To S7X Premium",
+	Image = "rbxassetid://16638313894",
+	Time = 20
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "⚽️ Street Soccer",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Premium☑️"
+})
+
+Tab:AddButton({
+  Name = "Reach+React (Pacthed on ios)!",
+  Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Youdfff/ewewe/main/Protected_4496141514656195-2_1.lua"))()
+          
+    end    
+})
+
+Tab:AddButton({
+  Name = "Hussien Abuse (No legit)!",
+  Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/hussain1323232234/My-Scripts/main/Street%20Soccer'))()
+
+    end    
+})
+
+Tab:AddButton({
+  Name = "React (PC only) !",
+  Callback = function()loadstring(game:HttpGet"https://raw.githubusercontent.com/DDIBASAAIB/tpsfreescript/main/obfsctpsfree.lua")()
+
+    end    
+})
+
+Tab:AddButton({
+  Name = "Ios Reach coming soon!",
+  Callback = function()
+          print("button pressed")
+    end    
+})
+
+Tab:AddButton({
+	Name = "More Coming soon¡",
+	Callback = function()
+      		print("button pressed")
+  	end 
+})
+
+
+
+
+local Tab = Window:MakeTab({
+  Name = "🔥 BrookHaven (OP)",
+  PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+  Name = "BEST BROOKHAVEN SCRIPTS"
+})
+
+Tab:AddButton({
+  Name = "Brookhaven Hub",
+  Callback = function()local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+      local Window = Library.CreateLib("Brookhaven rp V1", "Ocean")
+
+      local PlrTab = Window:NewTab("Home")
+      local PlrSection = PlrTab:NewSection("Welcome, " .. game.Players.LocalPlayer.DisplayName)
+      local PlrSection = PlrTab:NewSection("thanks for using my script")
+
+      local PlrTab = Window:NewTab("Players Hacks")
+      local PlrSection = PlrTab:NewSection("Hacks")
+
+      PlrSection:NewButton("Reset", "Reser ur character", function()
+          game.Players.LocalPlayer.Character.Head:Destroy()
+      end)
+
+      PlrSection:NewToggle("Disable Gravity", "ToggleInfo", function(state)
+          if state then
+              worksapce.Gravity = 0
+          else
+              worksapce.Gravity = 196.2
+          end
+      end)
+
+      PlrSection:NewSlider("Speed", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+          game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+      end)
+
+      PlrSection:NewSlider("Jump Power", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+          game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+      end)
+
+      local OthersTab = Window:NewTab("Others")
+      local OthersSection = OthersTab:NewSection("Others")
+
+      OthersSection:NewButton("Fe Brookhaven kill all", "ButtonInfo", function()
+          loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\65\99\117\114\97\88\48\52\57\47\111\98\102\117\115\99\97\116\101\100\83\99\114\105\112\116\115\47\109\97\105\110\47\75\105\108\108\71\117\105\34\41\41\40\41\10")()
+      end)
+
+      OthersSection:NewButton("fling people script", "ButtonInfo", function()
+          loadstring(game:HttpGet("https://gist.githubusercontent.com/dark-modz/0ef7e0cc9f92a64c874a3c5a75c88ade/raw/0b9e8b37d1b9d2e2676707f76297ba9f530cb0bd/rocketfling",true))()
+      end)
+
+      OthersSection:NewButton("fly v3", "ButtonInfo", function()
+          loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+      end)
+
+      OthersSection:NewButton("Infinite yield", "ButtonInfo", function()
+          loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+      end)
+
+      OthersSection:NewButton("Free gamepass", "ButtonInfo", function()
+          loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+      end)
+
+      OthersSection:NewButton("FE BLOCK SPAWNER SCRIPT", "ButtonInfo", function()
+          local player = game.Players.LocalPlayer
+      local character = player.Character or player.CharacterAdded:Wait()
+      local part = Instance.new("Part")
+      part.BrickColor = BrickColor.new("Bright blue")
+      part.Size = Vector3.new(5, 5, 5)
+
+      while true do
+          local position = character.PrimaryPart.Position
+          local randomOffset = Vector3.new(math.random(-10, 10), math.random(-10, 10), math.random(-10, 10))
+          part:Clone().Parent = workspace
+          part.Position = position + randomOffset
+          wait(0.1) -- Adjust the delay between spawns as desired
+      end
+      end)
+
+      OthersSection:NewButton("FE RAINBOW MAP", "ButtonInfo", function()
+          --Made by SUPERSONIC GAMERZ 
+      while true do
+          for _, part in ipairs(workspace:GetDescendants()) do
+              if part:IsA("BasePart") then
+                  local r = math.random()
+                  local g = math.random()
+                  local b = math.random()
+                  part.BrickColor = BrickColor.new(Color3.new(r, g, b))
+              end
+          end
+          wait(0.5)
+      end
+      end)
+
+      OthersSection:NewButton("Ice hub", "ButtonInfo", function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))() 
+      end)
+
+      OthersSection:NewButton("BROOKHAVEN OP TROLL GUI", "ButtonInfo", function()
+          loadstring(game:HttpGet("https://pastebin.com/raw/Siw4mbQd",true))()
+      end)
+
+      OthersSection:NewButton("BROOKHAVEN ADMIN TOOL", "ButtonInfo", function()
+          loadstring(game:HttpGet(('https://pastefy.app/VYIAk3o1/raw'),true))()
+      end)
+
+      OthersSection:NewButton("Brookhaven admin panel", "ButtonInfo", function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/IceMael7/IceHubAdmin/main/IceHub'))()
+      end)
+
+      OthersSection:NewButton("LAZER GUN SCRIPT", "ButtonInfo", function()
+          loadstring(game:HttpGet('https://pastebin.com/raw/SBbr8YHZ'))()
+      end)
+
+      OthersSection:NewButton("Free gamepass", "ButtonInfo", function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/AvatarUnlocker/main/IceHub"))()
+      end)
+
+      local PlrTab = Window:NewTab("credits")
+      local PlrSection = PlrTab:NewSection("--.im_dev --")
+          
+    end    
+})
+
+Tab:AddButton({
+  Name = "Hub v2 (Best)",
+  Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/hassantheking123321/Everybody/main/My%20hub"))();
+          
+    end    
+})
+
+Tab:AddButton({
+  Name = "Fe troll Brookhaven",
+  Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()
+          
+    end    
+})
+
+
+
+
+local Tab = Window:MakeTab({
+	Name = "🩸 Da Hood",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+  Name = "Premium☑️"
+})
+
+Tab:AddButton({
+  Name = "Main!",
+  Callback = function()
+
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
+          
+    end    
+})
+
+Tab:AddButton({
+  Name = "Mainv2",
+  Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/FrozenScripts/frozenhubb/main/frozenhub1", true))()
+    end    
+})
+
+Tab:AddButton({
+  Name = "Shift Lock",
+  Callback = function()loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
+     
+end    
+})
+
+Tab:AddButton({
+  Name = "Rigth Click",
+  Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/Leftclickballi'))()
+          
+    end    
+})
+
+Tab:AddButton({
+  Name = "Keybord",
+  Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+          
+    end    
+})
+
+Tab:AddButton({
+  Name = "Headless x Korblox",
+  Callback = function()loadstring(game:HttpGet('https://pastebin.com/raw/H5yx10Jq'))()
+          
+    end    
+})
+
+Tab:AddButton({
+  Name = "Auto reload",
+  Callback = function()_G.AutoReload = true -- change to false if u don't want it anymore.
+
+      while _G.AutoReload == true and game:GetService("RunService").Heartbeat:Wait() do
+      if game:GetService("Players").LocalPlayer.Character:FindFirstChildWhichIsA("Tool") then
+                  if game:GetService("Players").LocalPlayer.Character:FindFirstChildWhichIsA("Tool"):FindFirstChild("Ammo") then
+                      if game:GetService("Players").LocalPlayer.Character:FindFirstChildWhichIsA("Tool"):FindFirstChild("Ammo").Value <= 0 then
+                          game:GetService("ReplicatedStorage").MainEvent:FireServer("Reload", game:GetService("Players").LocalPlayer.Character:FindFirstChildWhichIsA("Tool")) 
+                          wait(1)
+                      end
+                  end
+              end
+      end
+          
+    end    
+})
+
+Tab:AddButton({
+  Name = "Fake Macro",
+  Callback = function()loadstring(game:HttpGet("https://pastebin.com/raw/9AmDUmRJ"))()
+          
+    end    
+})
+
+Tab:AddButton({
+  Name = "Fe Animation Pack",
+  Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/sashkotashko/DaHoodStuff/main/AnimationGamepass",true))()
+          
+    end    
+})
+
+Tab:AddButton({
+  Name = "Fe fly Infinity yield",
+  Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/PureMids/adminhub/main/main.lua", true))()
+          
+    end    
+})
+
+
+local Section = Tab:AddSection({
+  Name = "Aimlock🩸"
+}) 
+
+Tab:AddButton({
+  Name = "Aimlock (working)",
+  Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/MOON-GOD-SCRIPTS/main/Ryzzchips%20tool"))();
+          
+    end    
+})
+
+Tab:AddButton({
+  Name = "Aimlock Ios (idk bout android)!",
+  Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/FrozenScripts/frozenhub/main/ios%20lock", true))()
+          
+    end    
+})
+
+Tab:AddButton({
+  Name = "Anti lock (Working)",
+  Callback = function()_G.enable = true
+      _G.color = Color3.fromRGB(0,0,0) --- COLOR FOR UR TRACER!
+      _G.toggle_keybind = "i" -- enable tracer and disable
+      _G.swith_nigga = 't' -- press t and u will see a noti on the user ur tracer is on 
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/primegotemdontworry/revamped-locker-catcher.lua/main/prime%20gotta%20catch%20them%20all"))()
+      -- remember aimview only works when they have guns out
+      -- THE KEY IS prime
+      -- ! prime 0001
+          
+    end    
+})
+
+Tab:AddButton({
+  Name = "Aim Viewer OP🔥",
+  Callback = function()--KEY IS C
+
+      getgenv().tog = false
+      getgenv().key = "c"
+      getgenv().X = 68756
+      getgenv().Y = 100
+      getgenv().Z = -344
+
+      game:GetService("RunService").Heartbeat:Connect(function()
+              if getgenv().tog then
+                      local vel = game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity
+                      game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(getgenv().X, getgenv().Y, getgenv().Z)
+                      game:GetService("RunService").RenderStepped:Wait()
+                      game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = vel
+              end
+      end)
+
+      game:GetService("Players").LocalPlayer:GetMouse().KeyDown:Connect(function(keyPressed)
+              if keyPressed == string.lower(getgenv().key) then
+                      pcall(function()
+                              if getgenv().tog == false then
+                                      getgenv().tog = true
+                                      game.StarterGui:SetCore("SendNotification", {
+                                              Title = "Actyrn#7104",
+                                              Text = "AA Enabled" })
+                              elseif getgenv().tog == true then
+                                      getgenv().tog = false
+                                      game.StarterGui:SetCore("SendNotification", {
+                                              Title = "Actyrn#7104",
+                                              Text = "AA Disabled" })
+                              end
+                      end)
+              end
+      end)
+      hookfunction(game.Players.LocalPlayer.IsInGroup, function() return true end)
+
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/VinGUI"))()
+          
+    end    
+})
+
+local Section = Tab:AddSection({
+  Name = "Extra⭐️"
+})
+
+Tab:AddButton({
+  Name = "FPS Booster",
+  Callback = function()_G.Settings = {
+        Players = {
+            ["Ignore Me"] = true, -- Ignore your Character
+            ["Ignore Others"] = true -- Ignore other Characters
+        },
+        Meshes = {
+            Destroy = false, -- Destroy Meshes
+            LowDetail = false -- Low detail meshes (NOT SURE IT DOES ANYTHING)
+        },
+        Images = {
+            Invisible = true, -- Invisible Images
+            LowDetail = false, -- Low detail images (NOT SURE IT DOES ANYTHING)
+            Destroy = false, -- Destroy Images
+        },
+        Other = {
+            ["No Particles"] = true, -- Disables all ParticleEmitter, Trail, Smoke, Fire and Sparkles
+            ["No Camera Effects"] = true, -- Disables all PostEffect's (Camera/Lighting Effects)
+            ["No Explosions"] = true, -- Makes Explosion's invisible
+            ["No Clothes"] = true, -- Removes Clothing from the game
+            ["Low Water Graphics"] = true, -- Removes Water Quality
+            ["No Shadows"] = false, -- Remove Shadows
+            ["Low Rendering"] = true, -- Lower Rendering
+            ["Low Quality Parts"] = true -- Lower quality parts
+        }
+      }
+
+          
+    end    
+})
+
+    Tab:AddButton({
+      Name = "Low gfx",
+      Callback = function()for _,v in pairs(workspace:GetDescendants()) do
+          if v.ClassName == "Part"
+          or v.ClassName == "SpawnLocation"
+          or v.ClassName == "WedgePart"
+          or v.ClassName == "Terrain"
+          or v.ClassName == "MeshPart" then
+          v.Material = "Plastic"
+          end
+          end
+              
+        end    
+    })
+
+local Tab = Window:MakeTab({
+  Name = "🎈 Blade Ball",
+  PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Premium☑️"
+})
+
+Tab:AddButton({
+	Name = "Alchemy Hub ",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "S7X Blade Ball OP",
+	Callback = function()loadstring(game:HttpGet(("https://raw.githubusercontent.com/Kozukiremboukk/Aqui-mesml/main/blades")))()
+      		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Gold ex Blade ball!",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/OrzScript/GoldEx/main/Protected_1941221569967692.lua.txt",true))()
+      		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "More Coming Soon",
+	Callback = function()
+      		
+  	end
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "🔫 Arsenal",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Premium☑️"
+})
+
+
+Tab:AddButton({
+	Name = "Arsenal Aimbotv and More+",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Arsenalscript.txt"))()
+      		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Arsenal Aimbotv2 (Leaked)!",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))("https://t.me/KrutoySuslik")
+      		
+  	end  
+})
+
+Tab:AddButton({
+	Name = "Arsenal Camlockv1",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/ArsenalPWNERSV3"))()
+      		
+ end
+})
+
+
+
+Tab:AddToggle({
+  Name = "Speed (15) only this game use it",
+  Default = false,
+  Callback = function(Value)game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 15
+   
+  end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "🔪 Murder Mystery",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Premium☑️"
+})
+
+Tab:AddButton({
+	Name = "Murder mystery Hub",
+	Callback = function()repeat wait() until game.Players.LocalPlayer.Character
+      url = "https://raw.githubusercontent.com/xennyy/Xenny-Ware/main/loader.lua"
+      		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Murder mysteryv2",
+	Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubMurderMystery2"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Murder mysteryv3",
+	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/scriptemt/CE-Technologies/main/script', true))()
+      		
+  	end 
+})
+
+local Tab = Window:MakeTab({
+	Name = "🟠⚫️ Hubs",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Hubs🎙️"
+})
+
+Tab:AddButton({
+  Name = "Alchemy Hub ",
+  Callback = function()
+          print("button pressed")
+    end    
+})
+
+Tab:AddButton({
+  Name = "Ghost Hub Paid",
+  Callback = function()loadstring(game:HttpGet("https://pastebin.com/raw/FE2Wji0K"))()
+
+    end    
+})
+
+Tab:AddButton({
+  Name = "Sky Hub",
+  Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt"))()
+
+    end    
+})
+
+Tab:AddButton({
+  Name = "Alchemy Hub ",
+  Callback = function()
+          print("button pressed")
+    end    
+})
+
+Tab:AddButton({
+  Name = "Ghost Hub Paid",
+  Callback = function()loadstring(game:HttpGet("https://pastebin.com/raw/FE2Wji0K"))()
+
+    end    
+})
+
+Tab:AddButton({
+  Name = "Sky Hub",
+  Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt"))()
+
+    end    
+})
+
+Tab:AddButton({
+  Name = "More Coming Soon",
+  Callback = function()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+	Name = "⚫️FE",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Premium☑️"
+})
+
+
+Tab:AddButton({
+	Name = "Fe (Bytehub)",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/screengui/bytehub/main/minerscave",true))()
+      		
+  	end
+})
+
+Tab:AddButton({
+	Name = "FE (Chahex)",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/game-hax/uca/main/release/uca.min.lua"))()
+  	end
+})
+
+Tab:AddButton({
+	Name = "Universal",
+	Callback = function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-I-Fly-gui-V3-I-6627"))()
+      		
+  	end
+})
+
+Tab:AddButton({
+	Name = "Fe v1 ",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/PPOT"))()
+  	end
+})
+
+
+
+
+
+
+
+
+
+
+OrionLib:Init()
